@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .receipt-container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: light #f9f9f9;
+        border: 1px solid #342929;
+        box-shadow: 0 0 10px rgb(255, 183, 0);
+    }
+    
+    header {
+        text-align: center;
+    }
+    
+    header h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    header h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    section {
+        flex-basis: 45%;
+    }
+    
+    section h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .footer p {
+        font-size: 14px;
+        color: #666;
+        height: 20px;
+        width: 20px
+    }
+    
+    @media print {
+        .receipt-container {
+            margin: 0;
+            padding: 0;
+            border: none;
+            box-shadow: none;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="receipt-container">
+        <header>
+            <img src="./img/rtc logo.jpeg" class="product-image" alt="rtc" height="100px"> 
+            <h1>Certificate of Achievement</h1>
+            <p>Awarded to</p>
+            <h2>Shubhangi Raskar</h2>
+            <p>For outstanding performance in</p>
+            <h3>Web Development</h3>
+        </header>
+        <main>
+            <section>
+                <h4>Details</h4>
+                <ul>
+                    <li><strong>Name:</strong> Shubhangi Raskar</li>
+                    <li><strong>Date:</strong> 12th January 2025</li>
+                    <li><strong>Awarded By:</strong> Road To  code</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Signature</h4>
+                <p>R.T.C</p>
+                <p>Road To Code</p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;<img src="./img/rtc logo.jpeg" class="product-image" alt="rtc" height="15px"> All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
+
